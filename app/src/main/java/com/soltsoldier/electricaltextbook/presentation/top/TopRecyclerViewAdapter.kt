@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.soltsoldier.electricaltextbook.R
-import com.soltsoldier.electricaltextbook.presentation.textbook.ChapterActivity
+import com.soltsoldier.electricaltextbook.presentation.chapter.ChapterActivity
 
 class TopRecyclerViewAdapter(chapterList: List<String>, context: Context) :
     RecyclerView.Adapter<TopRecyclerViewAdapter.ViewHolder>() {
@@ -32,6 +32,7 @@ class TopRecyclerViewAdapter(chapterList: List<String>, context: Context) :
             val intent = Intent(mContext, ChapterActivity::class.java)
             // 章の名前だけ受け渡しておく（次のページのAppbarタイトルに設定）
             intent.putExtra("chapterName", mChapter.get(position))
+            intent.putExtra("chapterNum", position)
             mContext.startActivity(intent)
         }
     }
