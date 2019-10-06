@@ -37,7 +37,7 @@ class MainActivity : BaseActivity() {
         chapterList.add("1章 : 電気とは")
         chapterList.add("2章 : 電荷とは")
         chapterList.add("3章 : 電流とは")
-        // 好きなだけ無限に増やしてください
+        // 好きなだけ増やしてください
 
         return  chapterList
     }

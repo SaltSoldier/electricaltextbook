@@ -30,7 +30,7 @@ class TopRecyclerViewAdapter(chapterList: List<String>, context: Context) :
         holder.chapterName.text = mChapter.get(position)
         holder.chapterName.setOnClickListener{
             val intent = Intent(mContext, ChapterActivity::class.java)
-            // 章の名前だけ受け渡しておく（次のページのAppbarタイトルに設定）
+            // 章の名前と章の番号を渡しておく
             intent.putExtra("chapterName", mChapter.get(position))
             intent.putExtra("chapterNum", position)
             mContext.startActivity(intent)

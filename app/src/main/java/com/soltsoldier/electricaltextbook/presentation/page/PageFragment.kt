@@ -34,8 +34,10 @@ class PageFragment : BaseFragment() {
         savedInstanceState: Bundle?
     ): View? {
         var view: View? = null
+        // チャプターで場合分け
         when (chapterNum) {
             0 -> {
+                // ページで場合分け
                 when (pageNum) {
                     0 -> view = inflater.inflate(R.layout.fragment_chapter1_page1, container, false)
                     1 -> view = inflater.inflate(R.layout.fragment_chapter1_page2, container, false)

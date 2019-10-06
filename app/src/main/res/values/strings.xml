@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">ElectricalTextbook</string>
+
+    <string name="chapter1_page1_text1">電気とは、静電気や電流、電圧といった電気的な物理現象の総称。\n広い意味で使われるため、イメージとして覚えておけばOKです。</string>
+    <string name="chapter1_page2_text1">電気の役割</string>
+    <string name="chapter1_page2_text2">電気はいろいろな役目がありますが、主な役目は次の二つです。\n1.エネルギーの仲介\n2.信号の仲介</string>
+    <string name="chapter1_page3_text1">1.エネルギーの仲介</string>
+    <string name="chapter1_page3_text2">まずはエネルギーについて知ろう！\nエネルギーにはいくつか種類がありますが、電気エネルギーもその１つです。その特徴としては\nいろんなエネルギーに変換しやすい\n伝達速度が速い\n制御するのが難しい\n電気エネルギーそのものは使い道があまりない\nなどが挙げられます。</string>
+    <string name="sub1130_view2">エネルギーの種類\nエネルギーの種類には\n熱エネルギー\n化学エネルギー\n力学的エネルギー（運動エネルギーと位置エネルギー）\n光エネルギー\n音エネルギー\n電気エネルギー\nなどがあります</string>
+    <string name="sub1300_view1">電流とは電荷の流れのこと。プラスからマイナスに流れる。</string>
+    <string name="sub1300_view2">電流は、電源の電圧が高いほどたくさん流れ、回路の抵抗が大きいほど流れは少なくなる。</string>
+    <string name="sub1310_view1">電荷とは電気のもととなる電気の粒のこと。電子はマイナスの電荷を持ち、陽子はプラスの電荷を持つ。単位は"クーロン"[C]。    </string>
+    <string name="sub1320_view1">電流が多いと回路の素子がたくさん働きます。\n例えば、電球はより明るさが増し、モータは回転数が増え、ヒータはより暖かくなります。</string>
+    <string name="sub1320_view2">しかし、電流が流れすぎると素子が壊れます。そのため、抵抗などを使って電流の流れを制御します。</string>
+    <string name="sub1330_view1">電流に関する公式\nオームの法則</string>
+    <string name="sub1330_view2">I=V/R</string>
+    <string name="sub1330_view3">I : 電流　単位は[A]（アンペア）\nV : 電圧　単位は[V]（ボルト）\nR : 抵抗　単位は[Ω]（オーム）</string>
+    <string name="sub1330_view4">この式を言葉で表すと\n「電流は、電圧が高いほどたくさん流れ（比例し）、回路の抵抗が大きいほど流れは少なくなる（反比例する）」\nとなります。</string>
+    <string name="sub1330_view5">覚えよう！！</string>
+    <string name="sub1340_view1">電流の特性</string>
+    <string name="sub1340_view2">①　電流は閉回路でしか流れない\n②　電位(電圧)の高いところから低いところへ流れる\n③　電流は直列だとどこも同じ\n④　電流は並列だと分かれる</string>
+    <string name="sub1350_view1">①　電流は閉回路でしか流れない</string>
+    <string name="sub1350_view2">閉回路とはスタートとゴールが導体（電気を流す物質）によってつながっている回路のこと。\n回路が途中で途切れているものを「開放」といい、電流は流れることができません。\nまた、回路の途中に無限大の抵抗(とてつもなく大きい抵抗値を持つ抵抗)がある場合も開放状態とみなすことができます。</string>
+    <string name="sub1360_view1">①　閉回路の図解</string>
+    <string name="sub1360_view2">図1は閉回路になっているため電流が流れる。\n図2は端子"A"、"B"間が開放されているため電流が流れない。\n図3は閉回路にはなっているが無限大の抵抗がつながっているため電流は流れない（開放と同じ）。\n図4はスイッチによって開放しているため電流は流れない。スイッチが閉じれば電流も流れます。</string>
 </resources>
