@@ -4,7 +4,7 @@ import android.os.Bundle
 import com.soltsoldier.electricaltextbook.R
 import com.soltsoldier.electricaltextbook.presentation.base.BaseActivity
 
-class TextbookActivity : BaseActivity() {
+class ChapterActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -15,6 +15,7 @@ open class BaseActivity : AppCompatActivity() {
     }
 
     // AlertDialogの表示
+    // 今後通信処理等挟む場合はあった方が便利です
     @JvmOverloads
     fun showAlertDialog(msg: String? = "loading") {
         if (mAlertDialog == null) {

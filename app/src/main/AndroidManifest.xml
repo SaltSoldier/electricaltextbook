@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.textbook.TextbookActivity"/>
+        <activity android:name=".presentation.textbook.ChapterActivity"/>
     </application>
 
 </manifest>
